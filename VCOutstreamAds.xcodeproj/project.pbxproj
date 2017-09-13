@@ -11,8 +11,6 @@
 		3874E8951F6851FB0017CA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3874E8931F6851FB0017CA73 /* Main.storyboard */; };
 		3874E8971F6851FB0017CA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3874E8961F6851FB0017CA73 /* Assets.xcassets */; };
 		3874E89A1F6851FB0017CA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3874E8981F6851FB0017CA73 /* LaunchScreen.storyboard */; };
-		3874E8A51F6851FB0017CA73 /* VCOutstreamAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874E8A41F6851FB0017CA73 /* VCOutstreamAdsTests.swift */; };
-		3874E8B01F6851FB0017CA73 /* VCOutstreamAdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874E8AF1F6851FB0017CA73 /* VCOutstreamAdsUITests.swift */; };
 		3874E8BF1F6854820017CA73 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874E8BE1F6854820017CA73 /* TableViewController.swift */; };
 		3874E8C21F6855110017CA73 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874E8C01F6855110017CA73 /* VideoTableViewCell.swift */; };
 		3874E8C31F6855110017CA73 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3874E8C11F6855110017CA73 /* VideoTableViewCell.xib */; };
@@ -21,23 +19,6 @@
 		56B30978A6CF1023029FAECA /* Pods_VCOutstreamAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962B30E92A7E7D6F83588BA6 /* Pods_VCOutstreamAds.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3874E8A11F6851FB0017CA73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3874E8841F6851FB0017CA73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3874E88B1F6851FB0017CA73;
-			remoteInfo = VCOutstreamAds;
-		};
-		3874E8AC1F6851FB0017CA73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3874E8841F6851FB0017CA73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3874E88B1F6851FB0017CA73;
-			remoteInfo = VCOutstreamAds;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3874E88C1F6851FB0017CA73 /* VCOutstreamAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCOutstreamAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3874E88F1F6851FB0017CA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,12 +26,6 @@
 		3874E8961F6851FB0017CA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3874E8991F6851FB0017CA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3874E89B1F6851FB0017CA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3874E8A01F6851FB0017CA73 /* VCOutstreamAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCOutstreamAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3874E8A41F6851FB0017CA73 /* VCOutstreamAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOutstreamAdsTests.swift; sourceTree = "<group>"; };
-		3874E8A61F6851FB0017CA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3874E8AB1F6851FB0017CA73 /* VCOutstreamAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCOutstreamAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3874E8AF1F6851FB0017CA73 /* VCOutstreamAdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOutstreamAdsUITests.swift; sourceTree = "<group>"; };
-		3874E8B11F6851FB0017CA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3874E8BD1F6853660017CA73 /* VCOut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCOut-Bridging-Header.h"; sourceTree = "<group>"; };
 		3874E8BE1F6854820017CA73 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3874E8C01F6855110017CA73 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
@@ -71,20 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3874E89D1F6851FB0017CA73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3874E8A81F6851FB0017CA73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				3874E88E1F6851FB0017CA73 /* VCOutstreamAds */,
-				3874E8A31F6851FB0017CA73 /* VCOutstreamAdsTests */,
-				3874E8AE1F6851FB0017CA73 /* VCOutstreamAdsUITests */,
 				3874E88D1F6851FB0017CA73 /* Products */,
 				921C5AC4F38D412EEEDB3E5C /* Pods */,
 				4DCED99B27EF9533B709E092 /* Frameworks */,
@@ -104,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				3874E88C1F6851FB0017CA73 /* VCOutstreamAds.app */,
-				3874E8A01F6851FB0017CA73 /* VCOutstreamAdsTests.xctest */,
-				3874E8AB1F6851FB0017CA73 /* VCOutstreamAdsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,24 +83,6 @@
 				3874E8C51F686E950017CA73 /* TextTableViewCell.xib */,
 			);
 			path = VCOutstreamAds;
-			sourceTree = "<group>";
-		};
-		3874E8A31F6851FB0017CA73 /* VCOutstreamAdsTests */ = {
-			isa = PBXGroup;
-			children = (
-				3874E8A41F6851FB0017CA73 /* VCOutstreamAdsTests.swift */,
-				3874E8A61F6851FB0017CA73 /* Info.plist */,
-			);
-			path = VCOutstreamAdsTests;
-			sourceTree = "<group>";
-		};
-		3874E8AE1F6851FB0017CA73 /* VCOutstreamAdsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3874E8AF1F6851FB0017CA73 /* VCOutstreamAdsUITests.swift */,
-				3874E8B11F6851FB0017CA73 /* Info.plist */,
-			);
-			path = VCOutstreamAdsUITests;
 			sourceTree = "<group>";
 		};
 		4DCED99B27EF9533B709E092 /* Frameworks */ = {
@@ -186,42 +125,6 @@
 			productReference = 3874E88C1F6851FB0017CA73 /* VCOutstreamAds.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3874E89F1F6851FB0017CA73 /* VCOutstreamAdsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3874E8B71F6851FB0017CA73 /* Build configuration list for PBXNativeTarget "VCOutstreamAdsTests" */;
-			buildPhases = (
-				3874E89C1F6851FB0017CA73 /* Sources */,
-				3874E89D1F6851FB0017CA73 /* Frameworks */,
-				3874E89E1F6851FB0017CA73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3874E8A21F6851FB0017CA73 /* PBXTargetDependency */,
-			);
-			name = VCOutstreamAdsTests;
-			productName = VCOutstreamAdsTests;
-			productReference = 3874E8A01F6851FB0017CA73 /* VCOutstreamAdsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3874E8AA1F6851FB0017CA73 /* VCOutstreamAdsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3874E8BA1F6851FB0017CA73 /* Build configuration list for PBXNativeTarget "VCOutstreamAdsUITests" */;
-			buildPhases = (
-				3874E8A71F6851FB0017CA73 /* Sources */,
-				3874E8A81F6851FB0017CA73 /* Frameworks */,
-				3874E8A91F6851FB0017CA73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3874E8AD1F6851FB0017CA73 /* PBXTargetDependency */,
-			);
-			name = VCOutstreamAdsUITests;
-			productName = VCOutstreamAdsUITests;
-			productReference = 3874E8AB1F6851FB0017CA73 /* VCOutstreamAdsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,19 +138,8 @@
 					3874E88B1F6851FB0017CA73 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PVN9K3KC8B;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					3874E89F1F6851FB0017CA73 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PVN9K3KC8B;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3874E88B1F6851FB0017CA73;
-					};
-					3874E8AA1F6851FB0017CA73 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PVN9K3KC8B;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3874E88B1F6851FB0017CA73;
 					};
 				};
 			};
@@ -265,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				3874E88B1F6851FB0017CA73 /* VCOutstreamAds */,
-				3874E89F1F6851FB0017CA73 /* VCOutstreamAdsTests */,
-				3874E8AA1F6851FB0017CA73 /* VCOutstreamAdsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,20 +171,6 @@
 				3874E8C31F6855110017CA73 /* VideoTableViewCell.xib in Resources */,
 				3874E8971F6851FB0017CA73 /* Assets.xcassets in Resources */,
 				3874E8951F6851FB0017CA73 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3874E89E1F6851FB0017CA73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3874E8A91F6851FB0017CA73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,36 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3874E89C1F6851FB0017CA73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3874E8A51F6851FB0017CA73 /* VCOutstreamAdsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3874E8A71F6851FB0017CA73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3874E8B01F6851FB0017CA73 /* VCOutstreamAdsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3874E8A21F6851FB0017CA73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3874E88B1F6851FB0017CA73 /* VCOutstreamAds */;
-			targetProxy = 3874E8A11F6851FB0017CA73 /* PBXContainerItemProxy */;
-		};
-		3874E8AD1F6851FB0017CA73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3874E88B1F6851FB0017CA73 /* VCOutstreamAds */;
-			targetProxy = 3874E8AC1F6851FB0017CA73 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3874E8931F6851FB0017CA73 /* Main.storyboard */ = {
@@ -540,7 +387,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VCOutstreamAds/VCOut-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -555,65 +403,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VCOutstreamAds/VCOut-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		3874E8B81F6851FB0017CA73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = PVN9K3KC8B;
-				INFOPLIST_FILE = VCOutstreamAdsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAdsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCOutstreamAds.app/VCOutstreamAds";
-			};
-			name = Debug;
-		};
-		3874E8B91F6851FB0017CA73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = PVN9K3KC8B;
-				INFOPLIST_FILE = VCOutstreamAdsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAdsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VCOutstreamAds.app/VCOutstreamAds";
-			};
-			name = Release;
-		};
-		3874E8BB1F6851FB0017CA73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PVN9K3KC8B;
-				INFOPLIST_FILE = VCOutstreamAdsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAdsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = VCOutstreamAds;
-			};
-			name = Debug;
-		};
-		3874E8BC1F6851FB0017CA73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PVN9K3KC8B;
-				INFOPLIST_FILE = VCOutstreamAdsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShastaRain.VCOutstreamAdsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = VCOutstreamAds;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -634,24 +425,6 @@
 			buildConfigurations = (
 				3874E8B51F6851FB0017CA73 /* Debug */,
 				3874E8B61F6851FB0017CA73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3874E8B71F6851FB0017CA73 /* Build configuration list for PBXNativeTarget "VCOutstreamAdsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3874E8B81F6851FB0017CA73 /* Debug */,
-				3874E8B91F6851FB0017CA73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3874E8BA1F6851FB0017CA73 /* Build configuration list for PBXNativeTarget "VCOutstreamAdsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3874E8BB1F6851FB0017CA73 /* Debug */,
-				3874E8BC1F6851FB0017CA73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
